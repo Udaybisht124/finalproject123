@@ -1,25 +1,19 @@
 
 <?php
 session_start();
-$server="localhost";
-$username="root";
-$password="";
-$dbname="userdata";
+$server="	sql303.infinityfree.com";
+$username="if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_userdata";
 $con = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
 }
-
-$userprofile=$_SESSION['name'];
-if($userprofile == true){
-
-}
-else{
-  header('location:login.php');
-}
-
+// if(empty($_SESSION['name'])){
+//   header('location:index.php');
+// }
 
 
 ?>

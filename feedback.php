@@ -2,10 +2,10 @@
 
 <?php
 session_start();
-$server="localhost";
-$username="root";
-$password="";
-$dbname="feedback1";
+$server="sql303.infinityfree.com";
+$username="	if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_feedback1";
 $con = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$con)
@@ -21,15 +21,12 @@ else{
   header('location:login.php');
 }
 
-
-
 ?>
 <?php
-$server="localhost";
-$username="root";
-$password="";
-$dbname="feedback1";
-// making connection to the database
+$server="sql303.infinityfree.com";
+$username="	if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_feedback1";// making connection to the database
 $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
 
 if(isset($_POST['submit'])){

@@ -1,10 +1,10 @@
 
 <?php
 session_start();
-$server="localhost";
-$username="root";
-$password="";
-$dbname="userdata";
+$server="	sql303.infinityfree.com";
+$username="if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_userdata";
 $con = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$con)
@@ -67,7 +67,7 @@ else{
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav w-auto mx-auto" id="navbar">
           
-            <a class="nav-link active "  aria-current="page" href="index.php">Home</a>
+            <a class="nav-link"  aria-current="page" href="index.php">Home</a>
           
             <a class="nav-link " href="#search">Search Paper</a>
           
@@ -77,7 +77,7 @@ else{
 
           </div>
 
-          <a class="btn btn-dark p-2" href="login.php">login</a>
+          <a class="btn btn-dark p-2" href="logout.php">logout</a>
         </div>
       
       </div>

@@ -4,10 +4,10 @@ session_start();
 
 
 // include("connection.php"); // connection
-$server="localhost";
-$username="root";
-$password="";
-$dbname="userdata";
+$server="	sql303.infinityfree.com";
+$username="if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_userdata";
 
 $con = mysqli_connect($server,$username,$password,$dbname);
 

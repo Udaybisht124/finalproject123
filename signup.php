@@ -1,8 +1,8 @@
 <?php
-$server="localhost";
-$username="root";
-$password="";
-$dbname="userdata";
+$server="	sql303.infinityfree.com";
+$username="if0_36269640";
+$password="DazRQB5zqRzvdhp";
+$dbname="if0_36269640_userdata";
 // making connection to the database
 $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
 
@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
         $_SESSION["name"]=$name;
           $error_message = "SignUp Successfully please Login Now";
           echo "<script>alert('$error_message');</script>";
-          header("Location: index.php"); // Redirect to dashboard
+          header("Location: login.php"); // Redirect to dashboard
         }
         else{
             echo"error in inserting record";
