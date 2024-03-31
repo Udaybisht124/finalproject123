@@ -1,10 +1,11 @@
 
 <?php
 session_start();
-$server="	sql303.infinityfree.com";
-$username="if0_36269640";
-$password="DazRQB5zqRzvdhp";
-$dbname="if0_36269640_userdata";
+$server="sql209.infinityfree.com";
+$username="if0_36263164";
+$password="EDCAWWyiFOKNOK";
+$dbname="if0_36263164_userdata";
+
 $con = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$con)

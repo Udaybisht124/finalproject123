@@ -2,10 +2,11 @@
 
 <?php
 session_start();
-$server="sql303.infinityfree.com";
-$username="	if0_36269640";
-$password="DazRQB5zqRzvdhp";
-$dbname="if0_36269640_feedback1";
+$server="sql209.infinityfree.com";
+$username="if0_36263164";
+$password="EDCAWWyiFOKNOK";
+$dbname="if0_36263164_feedback1";
+
 $con = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$con)
@@ -23,10 +24,10 @@ else{
 
 ?>
 <?php
-$server="sql303.infinityfree.com";
-$username="	if0_36269640";
-$password="DazRQB5zqRzvdhp";
-$dbname="if0_36269640_feedback1";// making connection to the database
+$server="sql209.infinityfree.com";
+$username="if0_36263164";
+$password="EDCAWWyiFOKNOK";
+$dbname="if0_36263164_feedback1";
 $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
 
 if(isset($_POST['submit'])){
@@ -42,8 +43,8 @@ if(isset($_POST['submit'])){
         
 
           
-          $error_message = "feedback submitted successfully!";
-          echo "<script>alert('$error_message');</script>";
+
+          // echo "<script>alert("feedback submitted successfully");</script>";
           header("Location:feedback.php"); // Redirect to dashboard
         }
         else{

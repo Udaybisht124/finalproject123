@@ -28,17 +28,17 @@
 
 .image:hover
 {
-    box-shadow: 0 0  20px var(--black);
+    box-shadow: 0 0  40px var(--black);
 }
 .image> img
 {
     height: 500px;
-    background-color:white;
+    background-color:black;
 }
 </style>
 
 
-<body class="bg-info">
+<body>
 
     <!--
       -------------------------------
@@ -75,27 +75,29 @@
     <div class="container">
         <div class="row my-5">
             <div class="col-md-12">
-                <h1>Project Team </h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sequi voluptate molestiae, labore perspiciatis veniam, tenetur laboriosam necessitatibus officia animi aspernatur reprehenderit a. Quisquam omnis laboriosam neque repellat corporis? Deleniti error nam quod autem? Eum suscipit amet maiores facere quis.</p>
+                <h1 class="text-success mx-5"> About Us</h1>
+                <h1 style="font-size:25px;"> We are a student of bca final year studing at pggc11 chandigarh and we make this website only for student of different universities. We use html,css,javascript,boostrap  languages for front-end development of a website and php language  as a back-end.
+</h1>
+                <h1 class="text-success">THANKS FOR VISITING OUR WEBSITES AND SUPPORTS US.</h1>
             </div>
      
                 <div class="row">
-                    <div class="col-md-6 bg-danger image my-5">
-                        <img src="img\uday.jpg" height="500" width="430"class="img mx-5">
+                    <div class="col-md-6  image my-5">
+                        <img src="img\uday.jpg" height="300" width="300"class="img mx-5">
                         <h3 class="mx-5"><b>UDAYSINGHSBISHT</b></h3>
                         <p class="mx-5">BCA 3RD YEAR STUDENT </p>
                         <div class="mx-5">
                         <a href="https://www.linkedin.com/in/uday-singh-bisht-web-developer-65613a26a/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LinkedIn</a>
-                        <a href="#" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">LinkedIn</a>
+                        <a href="https://github.com/Udaybisht124" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Github</a>
                            
                        </div>
 </div>
-                    <div class="col-md-6 bg-danger my-5 image">
-                        <img src="img\rohit.jpg" height="490" width="430" class="img">
+                    <div class="col-md-6 my-5 image">
+                        <img src="img\rohit.jpg" height="300" width="300" class="img mx-5">
                         <h3><b>ROHIT SINGLA</b></h3>
                         <p>BCA 3RD YEAR STUDENT</p>
-                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LinkedIn</a>
-                        <a href="#" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">LinkedIn</a> </div>
+                        <a href="about.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LinkedIn</a>
+                        <a href="about.php" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Github</a> </div>
                 </div>
             </div>
         </div>

@@ -1826,7 +1826,7 @@ data = [
       subject: 'indian admistration',
       url: 'https://drive.google.com/file/d/1E1KYO6garh8NnQ8QmaU-4oPhuBchXeGl/view?usp=sharing'
    }
-   , {
+   ,{
       university: 'panjab university',
       year: '2021',
       stream: 'ba.bsc(general)',
