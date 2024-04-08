@@ -2,12 +2,13 @@
 
 <?php
 session_start();
-$server="sql209.infinityfree.com";
-$username="if0_36263164";
-$password="EDCAWWyiFOKNOK";
-$dbname="if0_36263164_feedback1";
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_feedback1";
 
-$con = mysqli_connect($server,$username,$password,$dbname);
+// $con = mysqli_connect($server,$username,$password,$dbname);
+$con = mysqli_connect("localhost","root","","feedback1");
 
 if (!$con)
 {
@@ -24,12 +25,12 @@ else{
 
 ?>
 <?php
-$server="sql209.infinityfree.com";
-$username="if0_36263164";
-$password="EDCAWWyiFOKNOK";
-$dbname="if0_36263164_feedback1";
-$con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
-
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_feedback1";
+// $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
+$con = mysqli_connect("localhost","root","","feedback1");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
     $email=$_POST['email'];

@@ -1,11 +1,11 @@
 <?php
-$server="sql209.infinityfree.com";
-$username="if0_36263164";
-$password="EDCAWWyiFOKNOK";
-$dbname="if0_36263164_userdata";
-// making connection to the database
-$con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
-
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_userdata";
+// // making connection to the database
+// $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
+$con = mysqli_connect("localhost","root","","userdata");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
     $email=$_POST['email'];

@@ -1,13 +1,13 @@
 
 <?php
 session_start();
-$server="sql209.infinityfree.com";
-$username="if0_36263164";
-$password="EDCAWWyiFOKNOK";
-$dbname="if0_36263164_userdata";
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_userdata";
 
-$con = mysqli_connect($server,$username,$password,$dbname);
-
+// $con = mysqli_connect($server,$username,$password,$dbname);
+$con = mysqli_connect("localhost","root","","userdata");
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
@@ -47,9 +47,6 @@ else{
   <main id="main">
 
 
-
-
-    
     <div class="w-100">
     <!--
       -------------------------------
@@ -92,8 +89,71 @@ else{
           <div class="h2 py-3 "> Search Question Paper that you require </div>
           
           <input type="search" name="" id="searchbar" class="form-control bg-white" placeholder="Search PDF question paper ...">
+      
         
-        </div>  </div>
+          <div class="container">
+                <form action="#" class="row py-5">
+                    <!-- ( form title ) -->
+                    <div class="col-lg-4 col-12">
+                        <div class="h3 text-light"> Find Your Destination! </div>
+                    </div>
+                    <!-- ( field 1 ) -->
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        
+                        <select class="form-select"  id="uni">
+                            <option value="panjab university">panjab university</option>
+                            <option value="chandigarh university">chandigarh university</option>
+                            <option value="delhi university">delhi university</option>
+               
+               
+                          </select>
+                    
+                    </div>
+                    <!-- ( field 2 ) -->
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        
+                        <select class="form-select" id="cour">
+                            <option value="bca">BCA</option>
+                            <option value="bcom">BCOM</option>
+                            <option value="ba.bsc(general)">BA/BSC</option>
+                        </select>
+                    
+                    </div>
+                    <!-- ( field 3 ) -->
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        
+                        <select class="form-select" id="sem">
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                            <option value="4th">4th</option>
+                            <option value="5th">5th</option>
+                            <option value="6th">6th</option>
+                          </select>
+
+                    </div>
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        
+                        <select class="form-select" id="mon">
+                            <option value="may">may</option>
+                            <option value="december">december</option>
+                           
+                        </select>
+
+                    </div>
+                    <!-- ( button ) -->
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        <button class="btn btn-success" id="filter"> Search Location </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <!-- end -->
+          
+        </div>
+      
+      </div>
       
       <div class="container">
 

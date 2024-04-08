@@ -1,11 +1,7 @@
 
 <?php
 session_start();
-$server="sql209.infinityfree.com";
-$username="if0_36263164";
-$password="EDCAWWyiFOKNOK";
-$dbname="if0_36263164_userdata";
-$con = mysqli_connect($server,$username,$password,$dbname);
+$con = mysqli_connect("localhost","root","","userdata");
 
 if (!$con)
 {
