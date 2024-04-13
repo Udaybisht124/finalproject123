@@ -59,13 +59,9 @@ var mon = selectedOptionMonth.value;
 let filterUsingUniversity=data.filter((item)=>{
     return (item.university==uni&&item.stream==cour&&item.semester==sem&&item.month==mon);
 })
-console.log(filterUsingUniversity)
 
 
-// Display the selected value
 
-
-   
     display(filterUsingUniversity)
 }
 
