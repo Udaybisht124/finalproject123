@@ -43,10 +43,18 @@ var mon = document.getElementById('mon').value.toLowerCase()
 
 
 document.getElementById('filter').onclick = () => {
+
+
+
 // getting university value
 var selectBoxUni = document.getElementById("uni");
 var selectedOptionUni = selectBoxUni.options[selectBoxUni.selectedIndex];
 var uni = selectedOptionUni.value;
+// getting course value
+var selectBoxCour = document.getElementById("cour");
+var selectedOptionCour = selectBoxCour.options[selectBoxCour.selectedIndex];
+var cour = selectedOptionCour.value;
+
 // getting semester value
 var selectBox = document.getElementById("sem");
 var selectedOption = selectBox.options[selectBox.selectedIndex];
@@ -77,6 +85,8 @@ function display(arr)
 {
   
 main_data_container.innerHTML="";
+if(arr.length!=0){
+
 
     for (let i = 0; i < arr.length; i++) {
         main_data_container.innerHTML+=`
@@ -96,7 +106,15 @@ main_data_container.innerHTML="";
         </article>
         `;
     }
+}else{
+    main_data_container.innerHTML+=`
+    <article class="d-flex justify-content-between align-items-center py-3 article">
+    
+        NO PAPER FOUND
+    </article>
+    `;
 
+}
 }
 
 /*
