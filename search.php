@@ -79,7 +79,7 @@ else{
         </div>
       
       </div>
-    </div>\  <section id="content" class="">
+    </div>  <section id="content" class="">
       <!--
         search bar ------------------------
       -->
@@ -123,20 +123,20 @@ else{
                     <div class="col-md-auto col-12 py-lg-0 py-3">
                         
                         <select class="form-select" id="sem">
-                            <option value="1st">1st</option>
-                            <option value="2nd">2nd</option>
-                            <option value="3rd">3rd</option>
-                            <option value="4th">4th</option>
-                            <option value="5th">5th</option>
-                            <option value="6th">6th</option>
+                            <option>1st</option>
+                            <option>2nd</option>
+                            <option>3rd</option>
+                            <option>4th</option>
+                            <option>5th</option>
+                            <option>6th</option>
                           </select>
 
                     </div>
                     <div class="col-md-auto col-12 py-lg-0 py-3">
                         
                         <select class="form-select" id="mon">
-                            <option value="may">may</option>
-                            <option value="december">december</option>
+                            <option>may</option>
+                            <option>december</option>
                            
                         </select>
 
@@ -155,7 +155,7 @@ else{
       
       </div>
       
-      <div class="container">
+      <div class="container" id="containerDiv">
 
         <div id="main_data_container">
           <!-- target by id and fetch data -->
