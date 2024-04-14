@@ -1,7 +1,14 @@
 
 <?php
 session_start();
-$con = mysqli_connect("localhost","root","","userdata");
+
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_userdata";
+
+// $con = mysqli_connect($server,$username,$password,$dbname);
+$con=mysqli_connect("localhost","root","","userdata");
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
@@ -28,7 +35,20 @@ if (!$con)
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   
 </head>
+<style>
+body{
+        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #000 !important;
+}
 
+#footer {
+    /* background: var(--black); */
+    background: black;
+}
+</style>
 <body>
 
   
@@ -47,7 +67,7 @@ if (!$con)
     <div class="navbar navbar-expand-md bg-warning bg-body-tertiary">
       <div class="container">
         <!-- ( brandname ) -->
-        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b>QPaper</b></a>
+        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b style="color:#96e6a1;">QPaper</b></a>
         <!-- ( toggle button ) -->
         <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -56,13 +76,13 @@ if (!$con)
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav w-auto mx-auto" id="navbar">
           
-            <a class="nav-link active "  aria-current="page" href="#main">Home</a>
+            <a class="nav-link active text "  style="color:#96e6a1;" aria-current="page" href="#main">Home</a>
           
-            <a class="nav-link " href="login.php">Search Paper</a>
+            <a class="nav-link "  style="color:#96e6a1;" href="login.php">Search Paper</a>
           
-            <a class="nav-link" href="about.php">About Us</a>
+            <a class="nav-link"  style="color:#96e6a1;" href="about.php">About Us</a>
 
-            <a class="nav-link" href="feedback.php">Feedback</a>
+            <a class="nav-link"  style="color:#96e6a1;" href="feedback.php">Feedback</a>
 
           </div>
 
@@ -86,9 +106,9 @@ if (!$con)
           
           <div>
 
-            <div class="h1 pb-5 text-success"> PREVIOUS YEAR QUESTION PAPERS</div>
+            <div class="h1 pb-5 text-dark"> PREVIOUS YEAR QUESTION PAPERS</div>
             
-            <div class="lead">Here we can provide a previous year question papers for different universities for benifits of a student.</div>
+            <div class="lead text-success">Here we can provide a previous year question papers for different universities for benifits of a student.</div>
           
             <a href="login.php" class="btn btn-outline-dark mt-5 px-3"> Search Paper </a>
           
@@ -100,7 +120,7 @@ if (!$con)
         </div>
 
       </div>
-      <marquee direction="right"><P class="text-success " style="font-size:2rem;"><b>HELLO WE ARE MAKING THIS WEBSITE ONLY FOR STUDENT BENEFITS OF UNIVERSITY LEVEL</b></P></marquee>
+      <marquee direction="right"><P class="text-dark" style="font-size:2rem;"><b>HELLO WE ARE MAKING THIS WEBSITE ONLY FOR STUDENT BENEFITS OF UNIVERSITY LEVEL</b></P></marquee>
     </header>
 <div>   
 
@@ -115,15 +135,15 @@ if (!$con)
   
   <div class="container py-5  ">
 
-<h1 style="font-size:40px;"><span class="h1" style="text-decoration:underline;">Avalabile</span> <span class="text-success" style="text-decoration:underline;">Universites</span> </H1>
+<h1 style="font-size:40px;"><span class="h1 text-success" style="text-decoration:underline; text-decoration-color:white;">AVAILABLE</span> <span class="text-dark" style="text-decoration:underline;text-decoration-color:white;">UNIVERSITIES</span> </H1>
 <br><br>
     <div class="d-flex  gap-2">
 
       <div class="card" style="width:50rem;">
         <img src="img\puimg.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title ">PANJAB UNIVERSITY</h5>
-          <p class="card-text "style="color:#1abc9c;">This is the best univeristy in Chandigarh</p>
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-white"><b>PANJAB UNIVERSITY</b></h5>
+          <p class="card-text " style="color:white;">This is the best univeristy in Chandigarh</p>
           
           <a href="https://pu.ac.in/" class="btn btn-secondary text-white">Read More</a>
         </div>
@@ -131,9 +151,10 @@ if (!$con)
       
       <div class="card" style="width:50rem;">
         <img src="img\chdchuni.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">CHANDIGARH UNIVERSITY</h5>
-          <p class="card-text "style="color:#1abc9c;">This is the best univeristy in Chandigarh</p>
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-white"><b>CHANDIGARH UNIVERSITY</b>
+          </h5>
+          <p class="card-text text-white">This is the best univeristy in Chandigarh</p>
           
           <a href="https://www.cuchd.in/" class="btn btn-secondary text-white">Read More</a>
         </div>
@@ -141,9 +162,9 @@ if (!$con)
       
       <div class="card" style="width:50rem;">
         <img src="img\delhi-university.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title ">DELHI UNIVERSITY</h5>
-          <p class="card-text "style="color:#1abc9c;">This is the best univeristy in delhi.</p>
+        <div class="card-body bg-dark" >
+          <h5 class="card-title text-white"><b>DELHI UNIVERSITY</b></h5>
+          <p class="card-text text-white">This is the best univeristy in delhi.</p>
           
           <a href="https://www.du.ac.in/" class="btn btn-secondary text-white">Read More</a>
         </div>
@@ -151,9 +172,9 @@ if (!$con)
      
       <div class="card " style="width:50rem;">
         <img src="img\pupat.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Panjab University Patiala</h5>
-          <p class="card-text "style="color:#1abc9c;">This is the best univeristy in located at Panjab</p>
+        <div class="card-body bg-dark ">
+          <h5 class="card-title text-white"><b>Panjab University Patiala</b></h5>
+          <p class="card-text text-white">This is the best univeristy in located at Panjab</p>
           
           <a href="https://www.nitt.edu/" class="btn btn-secondary text-white">Read More</a>
         </div>
@@ -162,9 +183,9 @@ if (!$con)
       
       <div class="card" style="width:50rem;">
         <img src="img\nitkuru.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title ">NIT KURUSHETRA</h5>
-          <p class="card-text" style="color:#2bc9a4;">This is the best univeristy in Chandigarh</p>
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-white"><b>NIT KURUSHETRA</b></h5>
+          <p class="card-text text-white">This is the best univeristy in Chandigarh</p>
           
           <a href="https://nitkkr.ac.in/" class="btn btn-secondary text-white">Read More</a>
         </div>

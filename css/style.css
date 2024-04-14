@@ -88,9 +88,9 @@ article:hover
     footer
 */
 
-#footer
-{
+#footer {
     /* background: var(--black); */
+    background: black;
 }
 #footer a
 {

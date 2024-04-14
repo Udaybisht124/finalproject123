@@ -39,8 +39,7 @@ var uni = document.getElementById('uni').value.toLowerCase()
 var cour = document.getElementById('cour').value.toLowerCase()
 var sem = document.getElementById('sem').value.toLowerCase()
 var mon = document.getElementById('mon').value.toLowerCase()
-
-
+var year = document.getElementById('year').value.toLowerCase()
 
 document.getElementById('filter').onclick = () => {
 
@@ -63,9 +62,12 @@ var sem = selectedOption.value;
 var selectBoxMonth = document.getElementById("mon");
 var selectedOptionMonth = selectBoxMonth.options[selectBoxMonth.selectedIndex];
 var mon = selectedOptionMonth.value;
+var selectBoxYear = document.getElementById("year");
+var selectedOptionYear = selectBoxYear.options[selectBoxYear.selectedIndex];
+var year = selectedOptionYear.value;
 // filter using university
 let filterUsingUniversity=data.filter((item)=>{
-    return (item.university==uni&&item.stream==cour&&item.semester==sem&&item.month==mon);
+    return (item.university==uni&&item.stream==cour&&item.semester==sem&&item.month==mon&&item.year==year);
 })
 
 

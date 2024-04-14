@@ -1,8 +1,14 @@
 
 <?php
 session_start();
-$con = mysqli_connect("localhost","root","","userdata");
 
+// $server="sql209.infinityfree.com";
+// $username="if0_36263164";
+// $password="EDCAWWyiFOKNOK";
+// $dbname="if0_36263164_userdata";
+
+// $con = mysqli_connect($server,$username,$password,$dbname);
+$con=mysqli_connect("localhost","root","","userdata");
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
@@ -52,7 +58,13 @@ if(isset($_POST['login'])){
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./css/style.css">
 <style>
-
+body{
+        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #000 !important;
+}
 .input-box
 {
   border: 1px solid var(--primary);
@@ -62,6 +74,11 @@ if(isset($_POST['login'])){
 {
   font-size:2em;
   padding:0 5px;
+}
+
+#footer {
+    /* background: var(--black); */
+    background: black;
 }
 
 </style>
@@ -77,7 +94,7 @@ if(isset($_POST['login'])){
     <div class="navbar navbar-expand-md bg-warning bg-body-tertiary">
       <div class="container">
         <!-- ( brandname ) -->
-        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b>QPaper</b></a>
+        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b style="color:#96e6a1;">QPaper</b></a>
         <!-- ( toggle button ) -->
         <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -86,13 +103,13 @@ if(isset($_POST['login'])){
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav w-auto mx-auto">
           
-            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php" style="color:#96e6a1;">Home</a>
           
             <!-- <a class="nav-link" href="login.php">Search Paper</a>
           
             <a class="nav-link" href="#">About Us</a> -->
 
-            <a class="nav-link" href="feedback.php">Feedback</a>
+            <a class="nav-link" href="feedback.php" style="color:#96e6a1;">Feedback</a>
 
           </div>
 

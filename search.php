@@ -56,7 +56,7 @@ else{
     <div class="navbar navbar-expand-md bg-warning bg-body-tertiary">
       <div class="container">
         <!-- ( brandname ) -->
-        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b>QPaper</b></a>
+        <a class="navbar-brand" href="#"><img src="img\logo.png" height="40" width="40"  alt=""><b style="color: #96e6a1;">QPaper</b></a>
         <!-- ( toggle button ) -->
         <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -88,7 +88,7 @@ else{
 
           <div class="h2 py-3 "> Search Question Paper that you require </div>
           
-          <input type="search" name="" id="searchbar" class="form-control bg-white" placeholder="Search PDF question paper ...">
+          <!-- <input type="search" name="" id="searchbar" class="form-control bg-white" placeholder="Search PDF question paper ..."> -->
       
         
           <div class="container">
@@ -139,6 +139,17 @@ else{
                             <option>december</option>
                            
                         </select>
+
+                    </div>
+
+                    <div class="col-md-auto col-12 py-lg-0 py-3">
+                        
+                        <select class="form-select" id="year">
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                          </select>
 
                     </div>
                     <!-- ( button ) -->
