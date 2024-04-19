@@ -1,47 +1,29 @@
-
 <?php
-session_start();
-
-// $server="sql209.infinityfree.com";
-// $username="if0_36263164";
-// $password="EDCAWWyiFOKNOK";
-// $dbname="if0_36263164_userdata";
-
-// $con = mysqli_connect("sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
-$con=mysqli_connect("localhost","root","","userdata");
-if (!$con)
-{
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-// making connection to the database
-
-if(isset($_POST['login'])){
-    $name = $_POST["name"];
-    $password = $_POST["password"];
-    $sql = "SELECT * FROM user_info  WHERE name = '$name' and  password = '$password'";
+$con=mysqli_connect("localhost","root","","contact");
+// $con = mysqli_connect("sql209.infinityfree.com","if0_36263164","EDCAWWyiFOKNOK","if0_36263164_contact");
+if(isset($_POST['submit'])){
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $number=$_POST['number'];
+    $message=$_POST['message'];
     
-    $result = mysqli_query($con, $sql);
+        $sql="insert into user_contact (name,email,message,number)values('$name','$email','$message','$number')";
 
-    // Check if user exists
-    if (mysqli_num_rows($result) > 0) {
-        $_SESSION["name"] = $name;
+        // inserting the record into the database
+        if(mysqli_query($con,$sql)){
+          $message = "Your message are Submitted Successfully!";
+
+          // Display an alert box using JavaScript
+          echo "<script>alert('$message');</script>";   // Redirect to dashboard
         
-
-
-        header("Location: search.php"); // Redirect to dashboard
-    } 
-    else {
+      }
+        else{
+            echo"error";
+        }
     
-      $error_message = "Incorrect username or password.if we don,t sinup so please go sinup page";
-
-      // Display an alert box using JavaScript
-      echo "<script>alert('$error_message');</script>";
-    }
 }
-
+mysqli_close($con);
 ?>
-
 
 
 <!DOCTYPE html>
@@ -52,11 +34,9 @@ if(isset($_POST['login'])){
     <title>Document</title>
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/style.css">
 <style>
 body{
         background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
@@ -80,7 +60,10 @@ body{
     /* background: var(--black); */
     background: black;
 }
-
+textarea{
+border:none;
+outline:none;
+}
 </style>
 
 
@@ -105,11 +88,6 @@ body{
           
             <a class="nav-link active" aria-current="page" href="index.php" style="color:#96e6a1;">Home</a>
           
-            <!-- <a class="nav-link" href="login.php">Search Paper</a>
-          
-            <a class="nav-link" href="#">About Us</a> -->
-
-            <a class="nav-link" href="feedback.php" style="color:#96e6a1;">Feedback</a>
 
           </div>
 
@@ -128,7 +106,7 @@ body{
       </div>
 
 
-      <div class="col-4">
+      <div class="col-4" style="border:none;">
 
       
 
@@ -136,31 +114,38 @@ body{
 
       <form action="" method="post" class="border-top my-3 ">
 
-        <div class="h3 py-3">Login Form </div>
+        <div class="h3 py-3">Contact Us </div>
         
         <!-- username -->
         <div class="input-box d-flex my-3">
-        <span class="icon material-symbols-outlined">person</span>
-        <input type="text"  name="name"placeholder="username" class="form-control" required>
+        <span class="material-symbols-outlined">
+person
+</span>
+        <input type="text"  name="name" placeholder="name" class="form-control" required>
 
         </div>
-        <!-- password  -->
-        <div class="input-box d-flex my-3">
-        <span class="icon material-symbols-outlined">passkey</span>
-        <input type="password" name="password" placeholder="password" class="form-control" required>
+   <!-- email -->
+   <div class="input-box d-flex my-3">
+   <span class="material-symbols-outlined">
+mail
+</span>
+        <input type="email"  name="email" placeholder="email" class="form-control" required>
 
         </div>
-        <!-- confirmpassowrd -->
-        <div class="forgot-pass">
-        <a href="#" class="btn py-3">Forgot-Password?</a>
-        </div>  
-        <input type="submit" value="LOGIN" name="login" class="btn btn-dark">
-        <a href="signup.php" class="btn btn-outline-dark">SIGNUP</a>
+<!-- number -->
+<div class="input-box d-flex my-3">
+<span class="material-symbols-outlined">
+call
+</span>
+        <input type="text"  name="number" placeholder="number" class="form-control" required>
 
-        <div class="register-link">
-        <p class="h4 py-3">Don,t have an account</p>
-      
-        <a href="#" class="btn btn-link">Register</a>
+        </div>
+<!-- message -->
+<div class="input-box d-flex my-3">
+    
+       <textarea name="message" placeholder="message" id="" cols="90" rows="10"></textarea>
+</div>
+<input type="submit" value="submit" name="submit" class="btn btn-dark">
         
       </div>
         </form>

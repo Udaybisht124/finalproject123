@@ -1,11 +1,5 @@
 <?php
-
-// $server="sql209.infinityfree.com";
-// $username="if0_36263164";
-// $password="EDCAWWyiFOKNOK";
-// $dbname="if0_36263164_userdata";
-
-// $con = mysqli_connect($server,$username,$password,$dbname);
+// $con = mysqli_connect("sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
 $con=mysqli_connect("localhost","root","","userdata");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
@@ -36,8 +30,7 @@ if(isset($_POST['submit'])){
          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
   ';
-    }
-}
+    }}
 mysqli_close($con);
 ?>
 
@@ -130,7 +123,7 @@ body{
    
       <form action="" method="post" class="my-3 ">
 
-        <div class="h1 py-3 text-success">Signup Form </div>
+        <div class="h1 py-3 text-success"><b>Signup Form</b> </div>
         
         <div class="w-100 py-2"></div>
 

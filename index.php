@@ -1,20 +1,15 @@
 
 <?php
 session_start();
-
-// $server="sql209.infinityfree.com";
-// $username="if0_36263164";
-// $password="EDCAWWyiFOKNOK";
-// $dbname="if0_36263164_userdata";
-
-// $con = mysqli_connect($server,$username,$password,$dbname);
+// $con = mysqli_connect("sql209.infinityfree.com","if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
 $con=mysqli_connect("localhost","root","","userdata");
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-
+// $_SESSION["name"] = $name;
+        
 ?>
 
 
@@ -83,7 +78,8 @@ body{
             <a class="nav-link"  style="color:#96e6a1;" href="about.php">About Us</a>
 
             <a class="nav-link"  style="color:#96e6a1;" href="feedback.php">Feedback</a>
-
+           
+            <a class="nav-link"  style="color:#96e6a1;" href="contactus.php">Contact Us</a>
           </div>
 
           <a class="btn btn-dark p-2" href="login.php">login</a>
@@ -135,7 +131,7 @@ body{
   
   <div class="container py-5  ">
 
-<h1 style="font-size:40px;"><span class="h1 text-success" style="text-decoration:underline; text-decoration-color:white;">AVAILABLE</span> <span class="text-dark" style="text-decoration:underline;text-decoration-color:white;">UNIVERSITIES</span> </H1>
+<h1 style="font-size:40px;"><span class="h1 text-success" style="text-decoration:underline; text-decoration-color:black;">AVAILABLE</span> <span class="text-dark" style="text-decoration:underline;text-decoration-color:black;">UNIVERSITIES</span> </H1>
 <br><br>
     <div class="d-flex  gap-2">
 
@@ -154,7 +150,7 @@ body{
         <div class="card-body bg-dark">
           <h5 class="card-title text-white"><b>CHANDIGARH UNIVERSITY</b>
           </h5>
-          <p class="card-text text-white">This is the best univeristy in Chandigarh</p>
+          <p class="card-text text-white">This is the best univeristy in Punjab</p>
           
           <a href="https://www.cuchd.in/" class="btn btn-secondary text-white">Read More</a>
         </div>
@@ -173,10 +169,10 @@ body{
       <div class="card " style="width:50rem;">
         <img src="img\pupat.png" class="card-img-top" alt="...">
         <div class="card-body bg-dark ">
-          <h5 class="card-title text-white"><b>Panjab University Patiala</b></h5>
+          <h5 class="card-title text-white"><b>PANJABI UNIVERSITY PATIALA</b></h5>
           <p class="card-text text-white">This is the best univeristy in located at Panjab</p>
           
-          <a href="https://www.nitt.edu/" class="btn btn-secondary text-white">Read More</a>
+          <a href="http://punjabiuniversity.ac.in/" class="btn btn-secondary text-white">Read More</a>
         </div>
         
       </div>
@@ -184,8 +180,8 @@ body{
       <div class="card" style="width:50rem;">
         <img src="img\nitkuru.jpeg" class="card-img-top" alt="...">
         <div class="card-body bg-dark">
-          <h5 class="card-title text-white"><b>NIT KURUSHETRA</b></h5>
-          <p class="card-text text-white">This is the best univeristy in Chandigarh</p>
+          <h5 class="card-title text-white"><b>NIT KURUKSHETRA</b></h5>
+          <p class="card-text text-white">This is the best university located at Haryana Kurukshetra</p>
           
           <a href="https://nitkkr.ac.in/" class="btn btn-secondary text-white">Read More</a>
         </div>

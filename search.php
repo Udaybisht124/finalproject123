@@ -1,13 +1,10 @@
 
 <?php
 session_start();
-// $server="sql209.infinityfree.com";
-// $username="if0_36263164";
-// $password="EDCAWWyiFOKNOK";
-// $dbname="if0_36263164_userdata";
+// $con = mysqli_connect("sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
 
-// $con = mysqli_connect($server,$username,$password,$dbname);
-$con = mysqli_connect("localhost","root","","userdata");
+$con=mysqli_connect("localhost","root","","userdata");
+
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
@@ -40,7 +37,15 @@ else{
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   
 </head>
-
+<style>
+  body{
+   background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  }
+  .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #000 !important;
+}
+</style>
 <body>
 
   
@@ -65,13 +70,12 @@ else{
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav w-auto mx-auto" id="navbar">
           
-            <a class="nav-link"  aria-current="page" href="index.php">Home</a>
+            <a class="nav-link"  aria-current="page" href="index.php" style="color:#96e6a1;">Home</a>
           
-            <a class="nav-link " href="#search">Search Paper</a>
+            <a class="nav-link " href="#search"  style="color:#96e6a1;">Search Paper</a>
           
-            <a class="nav-link" href="#">About Us</a>
-
-            <a class="nav-link" href="feedback.php">Feedback</a>
+            
+            <a class="nav-link" href="feedback.php"  style="color:#96e6a1;">Feedback</a>
 
           </div>
 
@@ -83,10 +87,10 @@ else{
       <!--
         search bar ------------------------
       -->
-      <div class="p-5 bg-light" id="search">
+      <div class="p-5 bg-dark" id="search">
         <div class="container ">
 
-          <div class="h2 py-3 "> Search Question Paper that you require </div>
+          <div class="h2 py-3"  style="color:#96e6a1; font-weight:bold;"> Search Question Paper that you require </div>
           
           <!-- <input type="search" name="" id="searchbar" class="form-control bg-white" placeholder="Search PDF question paper ..."> -->
       
@@ -94,9 +98,7 @@ else{
           <div class="container">
                 <form action="#" class="row py-5">
                     <!-- ( form title ) -->
-                    <div class="col-lg-4 col-12">
-                        <div class="h3 text-light"> Find Your Destination! </div>
-                    </div>
+                 
                     <!-- ( field 1 ) -->
                     <div class="col-md-auto col-12 py-lg-0 py-3">
                         
@@ -154,7 +156,7 @@ else{
                     </div>
                     <!-- ( button ) -->
                     <div class="col-md-auto col-12 py-lg-0 py-3">
-                        <button class="btn btn-success" id="filter"> Search Location </button>
+                        <button class="btn btn-success" id="filter"> filter papers </button>
                     </div>
 
                 </form>

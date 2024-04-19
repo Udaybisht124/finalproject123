@@ -7,21 +7,21 @@ session_start();
 // $password="EDCAWWyiFOKNOK";
 // $dbname="if0_36263164_feedback1";
 
-// $con = mysqli_connect($server,$username,$password,$dbname);
+// $con = mysqli_connect("sql209.infinityfree.com","if0_36263164","EDCAWWyiFOKNOK","if0_36263164_feedback1");
+// $con=mysqli_connect("	sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_feedback1");
 $con=mysqli_connect("localhost","root","","feedback1");
-
 if (!$con)
 {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$userprofile=$_SESSION['name'];
-if($userprofile == true){
+// $userprofile=$_SESSION['name'];
+// if($userprofile == true){
 
-}
-else{
-  header('location:login.php');
-}
+// }
+// else{
+//   header('location:login.php');
+// }
 
 ?>
 <?php
@@ -30,6 +30,8 @@ else{
 // $password="EDCAWWyiFOKNOK";
 // $dbname="if0_36263164_feedback1";
 // $con = mysqli_connect($server,$username,$password,$dbname) or die("error coming to create a connection");
+// $con=mysqli_connect("	sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_feedback1");
+// $con = mysqli_connect("sql209.infinityfree.com","if0_36263164","EDCAWWyiFOKNOK","if0_36263164_feedback1");
 $con=mysqli_connect("localhost","root","","feedback1");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
@@ -41,13 +43,12 @@ if(isset($_POST['submit'])){
 
         // inserting the record into the database
         if(mysqli_query($con,$sql)){
+          $message = "Your Feedback are Submitted Successfully!";
+
+          // Display an alert box using JavaScript
+          echo "<script>alert('$message');</script>";   // Redirect to dashboard
         
-
-          
-
-          // echo "<script>alert("feedback submitted successfully");</script>";
-          header("Location:feedback.php"); // Redirect to dashboard
-        }
+      }
         else{
             echo"error in doing feedback";
         }
@@ -150,7 +151,7 @@ mysqli_close($con);
       <!-- <div class="h1 py-3">  QPaper </div> -->
 
       <div class="w-100 py-3 "></div>
-      <div class="h3 py-3 mx-5 text-success">FEEDBACK! </div>
+      <div class="h3 py-3 mx-5 text-success"><b>FEEDBACK!</b> </div>
       <form action="" method="post" class="border-top my-3 ">
         
         <!-- username -->
