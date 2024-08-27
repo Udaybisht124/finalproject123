@@ -1786,7 +1786,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'physics(electricity and magnetism-II)',
       url: 'https://drive.google.com/file/d/11z9YeKkUpn7x_us6IXYoErMDeSnPuAMI/view?usp=sharing'
    }
@@ -1795,7 +1795,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'political science(political theory - II)',
       url: 'https://drive.google.com/file/d/1SBFL3avgWe-Fg2QQcOVCCwBMrvkNuhFK/view?usp=sharing'
    }
@@ -1804,7 +1804,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'principle and practice of insurance',
       url: 'https://drive.google.com/file/d/1mYUsUBZFDp-V3jog3wTAMK0I-PapUbl6/view?usp=sharing'
    }
@@ -1813,7 +1813,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'psychology',
       url: 'https://drive.google.com/file/d/1cySkNWi4bNn8Cx_XZfNETlS9YKfhddYr/view?usp=sharing'
    }
@@ -1822,7 +1822,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'indian admistration',
       url: 'https://drive.google.com/file/d/1E1KYO6garh8NnQ8QmaU-4oPhuBchXeGl/view?usp=sharing'
    }
@@ -1831,7 +1831,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'punjabi(compolsary)',
       url: 'https://drive.google.com/file/d/12WbmMI4OGcTNTyyadXnMO4jMEhKPIn7_/view?usp=sharing'
    }
@@ -1840,7 +1840,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'religious and sikh studies',
       url: 'https://drive.google.com/file/d/1dRR2LZqLYL_gUM52NciwDvM2o9UuJKKI/view?usp=sharing'
    }
@@ -1849,7 +1849,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '2nd',
-      month: 'july',
+      month: 'december',
       subject: 'statistics',
       url: 'https://drive.google.com/file/d/1dRR2LZqLYL_gUM52NciwDvM2o9UuJKKI/view?usp=sharing'
    }
@@ -1912,7 +1912,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'public administration',
       url: 'https://drive.google.com/file/d/17gbNyhexbFgu90ttcfM5OJt3oWCnaWjG/view?usp=sharing'
    }
@@ -1921,7 +1921,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'indian administration in india',
       url: 'https://drive.google.com/file/d/1YccKcY-r4OZ1QjZLelB0tceMBZ3CyXnS/view?usp=sharing'
    }
@@ -1930,7 +1930,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'punjabi',
       url: 'https://drive.google.com/file/d/13n3LxkWPmM0s-p5BnESBkBHpVWIHOygY/view?usp=sharing'
    }
@@ -1939,7 +1939,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'sanskrit',
       url: 'https://drive.google.com/file/d/1FiuEOCB0wViIu_a1oNpI2G65ZjcCifKe/view?usp=sharing'
    }
@@ -1948,7 +1948,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'zoology(environment biology)',
       url: 'https://drive.google.com/file/d/1xzuJtIN8vWAzt2HP4UKO6wvA3LWI-sco/view?usp=sharing'
    }
@@ -1957,7 +1957,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'bio-chemistry',
       url: 'https://drive.google.com/file/d/1_hpUVa4fnRN7guNhVob_zrKD4hMyXgWk/view?usp=sharing'
    }
@@ -1966,7 +1966,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'chemistry(inorganic chemistry)',
       url: 'https://drive.google.com/file/d/1aM7BtuDUeYY3TY62sM77Ugzda6Aa-MJq/view?usp=sharing'
    }
@@ -1975,7 +1975,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'economics(economics of labour)',
       url: 'https://drive.google.com/file/d/1LDMAzqjKZj3VnhNW3MVkDAlYtZVpHm0e/view?usp=sharing'
    }
@@ -1984,7 +1984,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'hindi',
       url: 'https://drive.google.com/file/d/1YdzzK1YzGxTPxUVUY3S3myJ_10H_Cao0/view?usp=sharing'
    }
@@ -1993,7 +1993,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'history',
       url: 'https://drive.google.com/file/d/1WID_W0um8dKo3AQel5qSgBVJQczobohC/view?usp=sharing'
    }
@@ -2002,7 +2002,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'physics(nuclear radiation and detection)',
       url: 'https://drive.google.com/file/d/1IM5Wd8u1hbiTAMnHWrh8XgcqZeSPPhgO/view?usp=sharing'
    }
@@ -2011,7 +2011,7 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'public administration',
       url: 'https://drive.google.com/file/d/1pPtsd4p7Nlr2MF9uFVZxbmzrROgNr-Xr/view?usp=sharing'
    }
@@ -2020,35 +2020,17 @@ data = [
       year: '2021',
       stream: 'ba.bsc(general)',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'punjabi',
       url: 'https://drive.google.com/file/d/11EPza8uq8naZ_Lda-xeYsMuYUaRp2Dr0/view?usp=sharing'
    }
-   , {
-      university: 'panjabi university patiala',
-      year: '2020',
-      stream: 'bca',
-      semester: '1st',
-      month: 'december',
-      subject: 'programming fundamentals using c',
-      url: 'https://drive.google.com/file/d/1ZCDAKPANwXH3092S0At3OoPe4MJtzutJ/view?usp=sharing'
-   }
-   , {
-      university: 'panjabi university patiala',
-      year: '2020',
-      stream: 'bca',
-      semester: '1st',
-      month: 'december',
-      subject: 'punjabi',
-      url: 'https://drive.google.com/file/d/1z3cu45h6LcbARSYSfNj7r_SaVimNqMCp/view?usp=sharing'
-   }
-
+   
    , {
       university: 'panjab university',
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'Bachelor of Commerce',
       url: 'https://drive.google.com/file/d/12kwUN69EKov9HOykBF_lHJCZD4uefPy3/view?usp=sharing'
    }
@@ -2057,7 +2039,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'commercial law',
       url: 'https://drive.google.com/file/d/1FwdCWhClMQ2u1SpTo1CRaHO5dkzCf0ge/view?usp=sharing'
    }, {
@@ -2065,7 +2047,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'principle of financial accounting',
       url: 'https://drive.google.com/file/d/1sGtNMU9tKguzNSk2Uve1BfIttpaYQxAI/view?usp=sharing'
    }
@@ -2074,7 +2056,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'Interdisciplinary Psychology for Managers',
       url: 'https://drive.google.com/file/d/1v4kAdA6nK_WA-zA7dTDcd8_iBc-EhTSu/view?usp=sharing'
    }
@@ -2084,7 +2066,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'Interdisciplinary Psychology for Managers',
       url: 'https://drive.google.com/file/d/1v4kAdA6nK_WA-zA7dTDcd8_iBc-EhTSu/view?usp=sharing'
    }
@@ -2093,7 +2075,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'english and business communication skills',
       url: 'https://drive.google.com/file/d/1Xzs5OhLZl25doWNs3NFYOHQAo9t6ixsH/view?usp=sharing'
    }
@@ -2102,7 +2084,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'history and culture of panjab',
       url: 'https://drive.google.com/file/d/16Jps1PdHEwcOwp4Gf5dn6GbIop1pgn2O/view?usp=sharing'
    }, {
@@ -2110,7 +2092,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'punjabi',
       url: 'https://drive.google.com/file/d/1aBgEYriRZ_pzHrPOlFMWTDXB240DbZBM/view?usp=sharing'
    }
@@ -2120,7 +2102,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '1st',
-      month: 'feb',
+      month: 'may',
       subject: 'commercial law',
       url: 'https://drive.google.com/file/d/1qVYGaIUgnKSXZnUZwQxB2irDrCAdUqeS/view?usp=sharing'
    }
@@ -2129,7 +2111,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'banking and insurance',
       url: 'https://drive.google.com/file/d/1nF2U_J6cl4EFz4DuSHYw1WIVlBMGt2cl/view?usp=sharing'
    }
@@ -2138,7 +2120,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'business mathematics and statistics',
       url: 'https://drive.google.com/file/d/1sLKW6ea_fD_qm-iICzDWphNgj0-nBOME/view?usp=sharing'
    }
@@ -2147,7 +2129,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'compony law',
       url: 'https://drive.google.com/file/d/1L6wtvMJ4yYovi484bL4rUwXeuJ1ZgS-g/view?usp=sharing'
    }
@@ -2157,7 +2139,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'bank management',
       url: 'https://drive.google.com/file/d/1rQ-Kq-Uue3bVqFc3-snSxuum-WUlAwF5/view?usp=sharing'
    }
@@ -2166,7 +2148,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'managment studies',
       url: 'https://drive.google.com/file/d/1GeK5FwFauOr9Iwx6neMyJMuZ7N8DL1yN/view?usp=sharing'
    }
@@ -2175,7 +2157,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '3rd',
-      month: 'feb',
+      month: 'may',
       subject: 'development economics',
       url: 'https://drive.google.com/file/d/1WC9lGujkfMZKokaBBBMg0-I3Hqh65tY0/view?usp=sharing'
    }
@@ -2185,7 +2167,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'quantitative techniques and methods',
       url: 'https://drive.google.com/file/d/1tyLpa56luhpDEGdFJIGySy3zimxczSeH/view?usp=sharing'
    }
@@ -2195,7 +2177,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'marketing management',
       url: 'https://drive.google.com/file/d/12b2jXhtsnPEqXPn94gywCdbS0WKKXhzP/view?usp=sharing'
    }
@@ -2206,7 +2188,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'cost management',
       url: 'https://drive.google.com/file/d/1cZL_kTtT1gFy1Hnt3g3HPUNb-QhLqI4A/view?usp=sharing'
    }
@@ -2215,7 +2197,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'auditing and secretarial practise',
       url: 'https://drive.google.com/file/d/11ctVSLgW7-fcdF8Bcsk90WukJtqeM1v-/view?usp=sharing'
    }
@@ -2224,7 +2206,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'advanced accounting',
       url: 'https://drive.google.com/file/d/1iXy-c7z0HddnAXlgofzwnbZlkfQ2BQjh/view?usp=sharing'
    }
@@ -2234,7 +2216,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '4th',
-      month: 'july',
+      month: 'december',
       subject: 'Economics- Industrial Economics',
       url: 'https://drive.google.com/file/d/1tlAa8ApEZZOzkCiitITQpmzFJ61skwVv/view?usp=sharing'
    }
@@ -2244,7 +2226,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '5th',
-      month: 'feb',
+      month: 'may',
       subject: 'financial markets and services',
       url: 'https://drive.google.com/file/d/1hJbjzPYRlB2FJ4FEem-WGOlaFN4sek1g/view?usp=sharing'
    }
@@ -2254,7 +2236,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '5th',
-      month: 'feb',
+      month: 'may',
       subject: 'production and operation management',
       url: 'https://drive.google.com/file/d/15RJrRojPeUJcr0h2MbN_ZQqxoKtday20/view?usp=sharing'
    }
@@ -2263,7 +2245,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '5th',
-      month: 'feb',
+      month: 'may',
       subject: 'indian economy',
       url: 'https://drive.google.com/file/d/1VZbnjx7sI0HTuJMpB3-zDx6ycCZtZTzx/view?usp=sharing'
    }
@@ -2272,7 +2254,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '5th',
-      month: 'feb',
+      month: 'may',
       subject: 'management studies',
       url: 'https://drive.google.com/file/d/1W8lqSHAkR6OWk30xKnmlJud-zmNQyNCL/view?usp=sharing'
    }, {
@@ -2280,7 +2262,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'banking:bank marketing',
       url: 'https://drive.google.com/file/d/1qCojVDrWSt2qB_7eiBpnTOH-B15otSKj/view?usp=sharing'
    }
@@ -2290,7 +2272,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'management studies(training and development)',
       url: 'https://drive.google.com/file/d/1Sfnp6JNZj5e0gz7Xub1IjOJKMYpXuRvv/view?usp=sharing'
    }
@@ -2299,7 +2281,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'economics(international economics)',
       url: 'https://drive.google.com/file/d/1yp5kKm449_IG-nfkf3TpNbkqptLz0QNz/view?usp=sharing'
    }
@@ -2309,7 +2291,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'accounting and finance(investment management)',
       url: 'https://drive.google.com/file/d/14u2j8mza2jjPypPp9Qt0_E29cqZnmi-e/view?usp=sharing'
    }
@@ -2319,7 +2301,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'direct tax law',
       url: 'https://drive.google.com/file/d/1QSj81MnjhTfx13qNPg-AR1A4xZoP-mrw/view?usp=sharing'
    }
@@ -2329,7 +2311,7 @@ data = [
       year: '2021',
       stream: 'bcom',
       semester: '6th',
-      month: 'july',
+      month: 'december',
       subject: 'operational research',
       url: 'https://drive.google.com/file/d/1UrMcNwI3osgOl4bFTlMyeZ2fIvVSldcv/view?usp=sharing'
    }
@@ -2339,7 +2321,7 @@ data = [
       year:'2021',
       stream:'bcom',
       semester:'6th',
-      month:'july',
+      month:'december',
       subject:'social and business ethics',
       url: 'https://drive.google.com/file/d/1kWeogwcs_2LyudaNKDN9N9uKdsJk0u0N/view?usp=sharing'
    }
@@ -2349,7 +2331,7 @@ data = [
       year:'2021',
       stream:'bcom',
       semester:'6th',
-      month:'july',
+      month:'december',
       subject:'issues and financial reporting',
       url: 'https://drive.google.com/file/d/1VT3FULJ-lP3Ln6NVuAbY3O8K0efvAInp/view?usp=sharing'
    }
@@ -2358,7 +2340,7 @@ data = [
       year:'2021',
       stream:'bcom',
       semester:'6th',
-      month:'july',
+      month:'december',
       subject:'financial management',
       url: 'https://drive.google.com/file/d/1JsMaBPoj8US1t9Z_h1yWko4Hz0__tGId/view?usp=sharing'
    }

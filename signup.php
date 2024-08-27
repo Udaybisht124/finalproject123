@@ -1,6 +1,6 @@
 <?php
-// $con = mysqli_connect("sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
-$con=mysqli_connect("localhost","root","","userdata");
+$con = mysqli_connect("sql209.infinityfree.com","	if0_36263164","EDCAWWyiFOKNOK","if0_36263164_userdata");
+// $con=mysqli_connect("localhost","root","","userdata");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
     $email=$_POST['email'];
@@ -52,7 +52,7 @@ mysqli_close($con);
     <link rel="stylesheet" href="./css/style.css">
 <style>
 body{
-        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background: linear-gradient(120deg,  #94E3AA 0%, #E0F8E8 100%);
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;

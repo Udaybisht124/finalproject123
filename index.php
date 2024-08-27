@@ -32,7 +32,7 @@ if (!$con)
 </head>
 <style>
 body{
-        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background: linear-gradient(120deg, #E0F8E8 0%, #94E3AA 100%);
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
@@ -112,7 +112,7 @@ body{
 
         </div>
         <div class="col-6 text-center">
-          <img src="img\3.png" class="my-5" alt="" width="500px" height="500px" >
+          <img src="img\3.png" class="my-5" style="background:none;" alt="" width="500px" height="500px" >
         </div>
 
       </div>

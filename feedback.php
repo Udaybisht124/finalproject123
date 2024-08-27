@@ -76,7 +76,7 @@ mysqli_close($con);
     <link rel="stylesheet" href="./css/style.css">
 <style>
   body{
-        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg,  #94E3AA 0%, #E0F8E8 100%);
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
